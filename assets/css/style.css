@@ -776,7 +776,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/videorenacer.JPG") center center no-repeat;
+  background: url("../img/sesionpsic.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -1075,7 +1075,7 @@ section {
 }
 
 .appointment .php-email-form button[type=submit] {
-  background: #1977cc;
+  background: #fddad8;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1284,7 +1284,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #76b5ee;
+  color: #baede8;
 }
 
 .faq .faq-list .icon-show,
@@ -1563,7 +1563,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1977cc;
+  background: #fddad8;
   border: 0;
   padding: 10px 35px;
   color: #fff;
