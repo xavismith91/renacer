@@ -969,8 +969,8 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #1977cc;
-  border-color: #1977cc;
+  background: #fff9bd;
+  border-color: #fff9bd;
 }
 
 .services .icon-box:hover .icon {
@@ -1563,7 +1563,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #fddad8;
+  background: #d5bfcc;
   border: 0;
   padding: 10px 35px;
   color: #fff;
