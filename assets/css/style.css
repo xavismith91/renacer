@@ -1110,12 +1110,12 @@ section {
 }
 
 .departments .nav-link:hover {
-  color: #1977cc;
+  color: #fddad8;
 }
 
 .departments .nav-link.active {
-  color: #1977cc;
-  border-color: #1977cc;
+  color: #fddad8;
+  border-color: #fddad8;
 }
 
 .departments .tab-pane.active {
@@ -1126,7 +1126,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #2c4964;
+  color: #fddad8;
 }
 
 .departments .details p {
@@ -1145,7 +1145,7 @@ section {
 
   .departments .nav-link.active {
     color: #fff;
-    background: #1977cc;
+    background: #fddad8;
   }
 }
 
@@ -1458,7 +1458,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #1977cc;
+  color: #fddad8;
   float: left;
   width: 44px;
   height: 44px;
