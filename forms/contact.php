@@ -1,12 +1,13 @@
 <?php
 
     $nombre =$_POST["nombre"];
-    $mensaje=$_POST["message"];
+    $mensaje = $_POST["message"];
+    $fecha = $_POST['fecha'];
     $correo = $_POST["correo"]; // correo que ingresan en el formulario
-    $correo2 = 'contacto@vaettir.com.mx';// correo en donde van a llegar los datos del formulario 
+    $correo2 = 'sistemas@ce2000.mx';// correo en donde van a llegar los datos del formulario 
     $telefono = $_POST['telefono'];
-    $tiposervicio = $_POST['servicio'];
-    $remitente= "VAETTIR";
+    // $tiposervicio = $_POST['servicio'];
+    $remitente= "Centro RENACER";
     // $asunto=$_POST["subject"];
     $cuerpo="
     <html> 
@@ -14,10 +15,12 @@
     <body>
       <h3> Cliente: $nombre</h3>
       <h3> Correo: $correo </h3> 
+      <h3> Teléfono de Contacto: $telefono</h3>
+      <h3> Fecha de Cita: $fecha</h3>
       <h3> Tipo de Servicio: $tiposervicio </h3>
-      <h3> Teléfono de Contacto: $telefono</h3
+    
       <h3> $mensaje </h5>
-      <h4>VAETTIR  2023</h4>
+      <h4>Centro RENACER 2024</h4>
     </body> 
     </html> 
     ";

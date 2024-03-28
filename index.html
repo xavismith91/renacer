@@ -297,41 +297,40 @@
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
           <div class="row">
             <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" name="nombre" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email">
+              <input type="email" class="form-control" name="correo" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Telefono" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="tel" class="form-control" name="telefono" id="phone" placeholder="Telefono" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4 form-group mt-3">
-              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Fehca de cita" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="datetime" name="fecha" class="form-control datepicker" id="date" placeholder="Fehca de cita" data-rule="minlen:4" data-msg="Por favor ingrese solamente 4 caractéres">
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3">
               <select name="department" id="department" class="form-select">
                 <option value="">Selecciona Departamento</option>
-                <option value="Department 1">Departmento 1</option>
-                <option value="Department 2">Departmento 2</option>
-                <option value="Department 3">Departmento 3</option>
+                <option value="Department 1">Departmento de Psicología</option>
+                <option value="Department 2">Departmento Jurídico</option>
               </select>
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3">
               <select name="doctor" id="doctor" class="form-select">
-                <option value="">Selecciona Doctor</option>
-                <option value="Doctor 1">Doctor 1</option>
-                <option value="Doctor 2">Doctor 2</option>
-                <option value="Doctor 3">Doctor 3</option>
+                <option value="">Selecciona Especialista</option>
+                <option value="Doctor 1">Lic. Esteffany Escalante</option>
+                <option value="Doctor 2">Lic. Romina Contreras</option>
+                <option value="Doctor 3">Lic. Paulina Bustamante</option>
               </select>
               <div class="validate"></div>
             </div>
@@ -342,9 +341,9 @@
             <div class="validate"></div>
           </div>
           <div class="mb-3">
-            <div class="loading">Loading</div>
+            <div class="loading">Procesando</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+            <div class="sent-message">Tu solicitud ha sido enviada exitosamente. Te contactaremos a la brevedad.</div>
           </div>
           <div class="text-center"><button type="submit">Ponerme en Contacto</button></div>
         </form>

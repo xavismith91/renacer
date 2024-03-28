@@ -1075,7 +1075,7 @@ section {
 }
 
 .appointment .php-email-form button[type=submit] {
-  background: #fddad8;
+  background: #84b6f4;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1084,7 +1084,7 @@ section {
 }
 
 .appointment .php-email-form button[type=submit]:hover {
-  background: #fddad8;
+  background: #1977cc;
 }
 
 /*--------------------------------------------------------------
