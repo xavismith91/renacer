@@ -539,7 +539,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f1f7fd;
+  background-color: #fddad8;
 }
 
 .section-title {
@@ -969,8 +969,8 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #fff9bd;
-  border-color: #fff9bd;
+  background: #fddad8;
+  border-color: #fddad8;
 }
 
 .services .icon-box:hover .icon {
