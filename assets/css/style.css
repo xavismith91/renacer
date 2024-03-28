@@ -1704,14 +1704,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1977cc;
+  background: #fddad8;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #1c84e3;
+  background: #fddad8;
 }
 
 #footer .credits {
@@ -1723,7 +1723,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1977cc;
+  background: #fddad8;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
