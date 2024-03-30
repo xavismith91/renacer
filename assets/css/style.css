@@ -70,7 +70,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1977cc;
+  background: #fddad8;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -119,11 +119,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #1977cc;
+  color: #fddad8;
 }
 
 #topbar .contact-info i {
-  color: #1977cc;
+  color: #fddad8;
   padding-right: 4px;
   margin-left: 15px;
   line-height: 0;
@@ -134,7 +134,7 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #437099;
+  color: #fddad8;
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -142,7 +142,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1977cc;
+  color: #fddad8;
 }
 
 #topbar .social-links a:first-child {
@@ -158,7 +158,7 @@ h6 {
   z-index: 997;
   padding: 15px 0;
   top: 40px;
-  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  box-shadow: 0px 2px 15px #fddad8;
 }
 
 #header.header-scrolled {
@@ -176,7 +176,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #2c4964;
+  color: #fddad8;
 }
 
 #header .logo img {
@@ -453,7 +453,7 @@ h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/portada.JPG") top center;
+  background: url("../img/renacer4.JPG") top center;
   background-size: cover;
   margin-bottom: -200px;
 }
@@ -472,7 +472,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #2c4964;
+  color: #fddad8;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -1596,8 +1596,8 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  background: #fddad8;
+  box-shadow: 0px 2px 15px #fddad8;
 }
 
 #footer .footer-top .footer-contact {
@@ -1656,7 +1656,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
