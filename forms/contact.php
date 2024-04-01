@@ -9,7 +9,10 @@
     $mensaje = $_POST["message"];
     $hora = $_POST['hora'];
     $correo2 = 'sistemas@ce2000.mx';// correo en donde van a llegar los datos del formulario 
+    
+    // $tiposervicio = $_POST['servicio'];
     $remitente= "Centro RENACER";
+    // $asunto=$_POST["subject"];
     $cuerpo="
     <html> 
     <meta charset='UTF-8'>
@@ -30,7 +33,7 @@
     $sheader=$sheader."X-Mailer:PHP/".phpversion()."\n";
     $sheader=$sheader."Mime-Version: 1.0\n";
     $sheader=$sheader."Content-Type: text/html; charset=utf-8\n";
-    mail($correo2,$cuerpo,$sheader,$mensaje); 
+    mail($correo2,$asunto,$cuerpo,$sheader,$mensaje); 
 
 
       header("Location: ../index.html");
