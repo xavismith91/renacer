@@ -17,15 +17,28 @@
     <html> 
     <meta charset='UTF-8'>
     <body>
-      <h3> Cliente: $nombre</h3>
-      <h3> Correo: $correo </h3> 
-      <h3> Teléfono de Contacto: $telefono</h3>
-      <h3> Fecha de Cita: $fecha</h3>
-      <h3> Departamento: $departamento </h3>
-      <h3> Especialista: $especialista </h3>
-      <h3> Horario de Consulta: $hora </h3>
-      <h3> $mensaje </h5>
-      <h4>Centro RENACER 2024</h4>
+
+    <h1>Estimado/a Colaborador</h1>
+    <p>Nos complace informarle que hemos recibido su solicitud de cita y hemos programado una reunión con uno de nuestros especialistas. A continuación, encontrará los detalles de la cita:</p>
+    
+      <h2> Cliente: $nombre</h3>
+      <h2> Correo: $correo </h3> 
+      <h2> Teléfono de Contacto: $telefono</h3>
+      <h2> Fecha de Cita: $fecha</h3>
+      <h2> Departamento: $departamento </h3>
+      <h2> Especialista: $especialista </h3>
+      <h2> Horario de Consulta: $hora </h3>
+      <br>
+      <br>
+      <h5> $mensaje </h5>
+      <br>
+      <br>
+      <p>
+      Por favor, confirme su asistencia a esta cita respondiendo a este correo electrónico o poniéndose en contacto con nosotros si necesita reprogramarla.
+      </p>
+
+      <h3> Centro RENACER </h3>
+      
     </body> 
     </html> 
     ";
