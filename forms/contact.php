@@ -19,7 +19,7 @@
     <body>
 
     <h1>Estimado/a Colaborador</h1>
-    <h2>Nos complace informarle que hemos recibido su solicitud de cita y hemos programado una reunión con uno de nuestros especialistas. A continuación, encontrará los detalles de la cita:</h2>
+    <h2>Nos complace informarle que hemos recibido una solicitud de cita. A continuación, encontrará los detalles de la cita:</h2>
     
       <h3> Cliente: $nombre</h3>
       <h3> Correo: $correo </h3> 
@@ -34,7 +34,7 @@
       <br>
       <br>
       <h3>
-      Por favor, confirme su asistencia a esta cita respondiendo a este correo electrónico o poniéndose en contacto con nosotros si necesita reprogramarla.
+      Por favor, confirme su asistencia a esta cita dando clic en el correo para responder esta solicitud, o para reprogramarla a la brevedad.
       </h3>
       
     </body> 
