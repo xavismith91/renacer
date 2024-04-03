@@ -304,21 +304,21 @@
         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
           <div class="row">
             <div class="col-md-4 form-group">
-              <input type="text" name="nombre" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" name="nombre" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" required>
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="correo" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email">
+              <input type="email" class="form-control" name="correo" id="email" placeholder="Correo" data-rule="email" required>
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="telefono" id="phone" placeholder="Telefono" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="tel" class="form-control" name="telefono" id="phone" placeholder="Telefono" data-rule="minlen:4" required>
               <div class="validate"></div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4 form-group mt-3">
-              <input type="date" name="fecha" class="form-control datepicker" id="date" placeholder="Fehca de cita" data-rule="minlen:4" data-msg="Por favor ingrese solamente 4 caractéres">
+              <input type="date" name="fecha" class="form-control datepicker" id="date" placeholder="Fehca de cita" data-rule="minlen:4" required>
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3">
