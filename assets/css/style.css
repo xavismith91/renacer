@@ -1371,7 +1371,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #badaf7;
+  color: #fddad8;
   font-size: 26px;
 }
 
@@ -1403,11 +1403,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1977cc;
+  border: 1px solid #fddad8;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1977cc;
+  background-color: #fddad8;
 }
 
 @media (max-width: 767px) {
