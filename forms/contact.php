@@ -53,7 +53,7 @@
 
 
     if (mail($correo2,$asunto,$cuerpo,$sheader,$mensaje)) {
-      echo '<script>alert("Su Cita ha sido enviada correctamente, espere su confirmación");</script>';
+      echo '<script>alert("Su cita ha sido enviada correctamente, espere la confirmación de su especialista");</script>';
     }else {
       echo '<script>alert("Verifique su información e intente de nuevo");</script>';
     }
