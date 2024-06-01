@@ -1,2 +1,0 @@
-Página para uso informativo
-
