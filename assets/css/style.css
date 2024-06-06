@@ -42,8 +42,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1977cc;
-  border-top-color: #d1e6f9;
+  border: 6px solid #fddad8;
+  border-top-color: white;
   border-radius: 50%;
   width: 60px;
   height: 60px;
