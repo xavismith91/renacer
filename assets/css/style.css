@@ -1744,3 +1744,29 @@ section {
 .texto-justificado{
   text-align: justify;
 }
+
+
+    
+#cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:#fddad8;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+#cookie-consent button {
+  background-color: #1c84e3;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+

@@ -503,6 +503,28 @@
             </div>
           </div>
 
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <h3>Tratamiento de Conoterapia</h3>
+                <br>
+                <h4>¿Qué beneficios tiene esta terapia?</h4>
+                <p class="texto-justificado">
+                 <ul>
+                  <li class="texto-justificado">Ayuda con la sinusitis</li>
+                  <li class="texto-justificado">Vértigo</li>
+                  <li class="texto-justificado">Dolor de Cabeza</li>
+                  <li class="texto-justificado">Personas que producen mucha cerilla</li>
+                  <li class="texto-justificado">Personas que viajan</li>
+                  <li class="testo-justificado">Ayuda a las personas que constantemente padecen de gripe y garganta</li>
+                 </ul>
+              </p>
+              <!-- <p class="texto-justificado"> Cuando estos centros de energía estan desequilibrados o bloquados, pueden afectar negativamente en nuestra salud y bienestar.</p> -->
+              <div><button class="appointment-btn">Me Interesa</button></div>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -706,6 +728,14 @@
       </div>
     </div>
 
+    <div id="cookie-consent">
+      <p>Este sitio utiliza cookies para mejorar su experiencia. Al continuar navegando, acepta nuestra <a href="privacidad.html">Política de Privacidad</a> y el uso de cookies.</p>
+      <div>
+          <button id="accept-cookies">Aceptar</button>
+          <button id="decline-cookies">Denegar</button>
+      </div>
+  </div>
+
     <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
@@ -733,7 +763,24 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  
+  <script>
+    // Verificar si el usuario ya ha aceptado o denegado las cookies
+    if (localStorage.getItem('cookieConsent') === 'accepted' || localStorage.getItem('cookieConsent') === 'declined') {
+           document.getElementById('cookie-consent').style.display = 'none';
+       }
+
+       document.getElementById('accept-cookies').addEventListener('click', function() {
+           localStorage.setItem('cookieConsent', 'accepted');
+           document.getElementById('cookie-consent').style.display = 'none';
+       });
+
+       document.getElementById('decline-cookies').addEventListener('click', function() {
+           localStorage.setItem('cookieConsent', 'declined');
+           window.location.href = 'https://www.google.com';
+       });
+</script>
+
+
   <script src="assets/js/main.js"></script>
 
 </body>
