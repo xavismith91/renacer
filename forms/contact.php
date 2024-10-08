@@ -8,11 +8,10 @@
     $especialista = $_POST['especialista'];
     $mensaje = $_POST["message"];
     $hora = $_POST['hora'];
-    $correo2 = 'sistemas@ce2000.mx';// correo en donde van a llegar los datos del formulario 
-    
+    $correo2 = 'centrorenacermx@gmail.com';// correo en donde van a llegar los datos del formulario 
     // $tiposervicio = $_POST['servicio'];
     $remitente= "Centro RENACER";
-    // $asunto=$_POST["subject"];
+    $asunto= 'Confirmación de Cita';
     $cuerpo="
     <html> 
     <meta charset='UTF-8'>
