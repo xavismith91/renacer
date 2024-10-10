@@ -1,16 +1,14 @@
 <?php
-
     $nombre =$_POST["nombre"];
     $correo = $_POST["correo"]; // correo que ingresan en el formulario
+    $correo2 = 'contacto@centrorenacermx.com';// correo en donde van a llegar los datos del formulario 
     $telefono = $_POST['telefono']; // Telefono de cliente o prospecto
     $fecha = $_POST['fecha'];
     $departamento = $_POST['departamento']; 
     $especialista = $_POST['especialista'];
     $mensaje = $_POST["message"];
     $hora = $_POST['hora'];
-    $correo2 = 'centrorenacermx@gmail.com';// correo en donde van a llegar los datos del formulario 
-    // $tiposervicio = $_POST['servicio'];
-    $remitente= "Centro RENACER";
+    $remitente="contacto@centrorenacermx.com";
     $asunto= 'Confirmación de Cita';
     $cuerpo="
     <html> 
@@ -44,13 +42,8 @@
     $sheader=$sheader."Mime-Version: 1.0\n";
     $sheader=$sheader."Content-Type: text/html; charset=utf-8\n";
    
-    // mail($correo2,$asunto,$cuerpo,$sheader,$mensaje); 
 
-
-    //   header("Location: ../index.html");
-      
-
-
+   // if (mail($remitente,$asunto,$cuerpo,$sheader,$mensaje)) {
     if (mail($correo2,$asunto,$cuerpo,$sheader,$mensaje)) {
       echo '<script>alert("Su Cita ha sido enviada correctamente, espere su confirmación");</script>';
     }else {
