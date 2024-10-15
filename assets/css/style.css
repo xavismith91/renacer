@@ -786,6 +786,29 @@ section {
   min-height: 500px;
 }
 
+.about .video-box2 {
+  background: url("../img/chakras.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.about .video-box3 {
+  background: url("../img/constelacionfam.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.about .video-box4 {
+  background: url("../img/biomagnetismoconimanes.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+.about .video-box5 {
+  background: url("../img/conoterapia.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
 .about .play-btn {
   width: 94px;
   height: 94px;
