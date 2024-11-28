@@ -831,20 +831,52 @@
 
 <script>
   document.getElementById('submitButton').addEventListener('click', function () {
-    // Mostrar la alerta
-    Swal.fire({
-      title: '¡Datos enviados correctamente!',
-      text: 'Nos pondremos en contacto contigo lo antes posible.',
-      icon: 'success',
-      confirmButtonText: 'Aceptar'
-    }).then((result) => {
-      if (result.isConfirmed) {
-        // Si el usuario confirma, envía el formulario
-        document.querySelector('.php-email-form').submit();
-      }
-    });
+    // Obtener los valores de los campos del formulario
+    const nombre = document.getElementById('name').value.trim();
+    const correo = document.getElementById('email').value.trim();
+    const telefono = document.getElementById('phone').value.trim();
+    const fecha = document.getElementById('date').value.trim();
+    const departamento = document.getElementById('departamento').value.trim();
+    const especialista = document.getElementById('especialista').value.trim();
+    const hora = document.getElementById('hora').value.trim();
+
+    // Crear un arreglo para almacenar los campos que están vacíos
+    const errores = [];
+
+    if (!nombre) errores.push('Nombre');
+    if (!correo) errores.push('Correo');
+    if (!telefono) errores.push('Teléfono');
+    if (!fecha) errores.push('Fecha de cita');
+    if (!departamento) errores.push('Departamento');
+    if (!especialista) errores.push('Especialista');
+    if (!hora) errores.push('Horario');
+
+    // Validar si hay errores
+    if (errores.length > 0) {
+      // Mostrar alerta de error
+      Swal.fire({
+        title: 'Campos incompletos',
+        text: `Por favor completa los siguientes campos: ${errores.join(', ')}`,
+        icon: 'error',
+        confirmButtonText: 'Aceptar'
+      });
+    } else {
+      // Si todos los campos están completos, mostrar alerta de éxito
+      Swal.fire({
+        title: '¡Datos enviados correctamente!',
+        text: 'Nos pondremos en contacto contigo lo antes posible.',
+        icon: 'success',
+        confirmButtonText: 'Aceptar'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          // Si el usuario confirma, enviar el formulario
+          document.querySelector('.php-email-form').submit();
+        }
+      });
+    }
   });
 </script>
+
 
   <script src="assets/js/main.js"></script>
 
