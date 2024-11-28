@@ -429,7 +429,9 @@
             <textarea class="form-control" name="message" rows="5" placeholder="Mensaje (Opcional)"></textarea>
             <div class="validate"></div>
           </div>
-          <div class="text-center"><button type="submit">Ponerme en Contacto</button></div>
+          <div class="text-center">
+            <button type="button" id="submitButton">Ponerme en Contacto</button>
+          </div>
         </form>
       </div>
     </section>
@@ -800,7 +802,7 @@
     </div>
   </footer>
 
-  <div id="preloader"></div>
+  <!-- <div id="preloader"></div> -->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   
@@ -827,6 +829,22 @@
        });
 </script>
 
+<script>
+  document.getElementById('submitButton').addEventListener('click', function () {
+    // Mostrar la alerta
+    Swal.fire({
+      title: '¡Datos enviados correctamente!',
+      text: 'Nos pondremos en contacto contigo lo antes posible.',
+      icon: 'success',
+      confirmButtonText: 'Aceptar'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        // Si el usuario confirma, envía el formulario
+        document.querySelector('.php-email-form').submit();
+      }
+    });
+  });
+</script>
 
   <script src="assets/js/main.js"></script>
 
