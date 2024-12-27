@@ -815,6 +815,11 @@ section {
   min-height: 500px;
 }
 
+.about .video-box7 {
+  background: url("../img/terapiaadolescenteanimada.avif") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
 
 .about .play-btn {
   width: 94px;
