@@ -821,6 +821,12 @@ section {
   min-height: 500px;
 }
 
+.about .video-box8 {
+  background: url("../img/istockphoto-1308910334-612x612.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
 .about .play-btn {
   width: 94px;
   height: 94px;
