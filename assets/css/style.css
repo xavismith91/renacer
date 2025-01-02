@@ -827,6 +827,12 @@ section {
   min-height: 500px;
 }
 
+.about .video-box9 {
+  background: url("../img/tera-enpareja.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
 .about .play-btn {
   width: 94px;
   height: 94px;
