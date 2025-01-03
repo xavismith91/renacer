@@ -839,6 +839,13 @@ section {
   min-height: 500px;
 }
 
+.about .video-box11 {
+  background: url("../img/capacitacion-empresarial.png") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+
 .about .play-btn {
   width: 94px;
   height: 94px;
