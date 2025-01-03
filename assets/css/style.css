@@ -833,6 +833,12 @@ section {
   min-height: 500px;
 }
 
+.about .video-box10 {
+  background: url("../img/terapia_familiar-1024x684-1.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
 .about .play-btn {
   width: 94px;
   height: 94px;
